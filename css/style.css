@@ -15,9 +15,8 @@ html {
   color: #232;
   font-size: 17px;
   line-height: 1.6;
-  font-family: 'Roboto Slab', serif;
-  background: linear-gradient(to bottom, #EEF1EF, #DBE1DA
-);
+  font-family: "Roboto Slab", serif;
+  background: linear-gradient(to bottom, #eef1ef, #dbe1da);
 }
 
 /*
@@ -89,9 +88,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+:root {
+  --green: #219653;
+
+  --link-color: var(--green);
+}
 
 p {
-  margin: 0 0 .75em;
+  margin: 0 0 0.75em;
 }
 
 body {
@@ -111,7 +115,6 @@ body {
     max-width: 900px;
   }
 }
-
 
 header {
   display: flex;
@@ -141,6 +144,10 @@ header {
 .two-column-container > * {
   flex-grow: 1;
   margin-right: 10px;
+}
+
+a {
+  color: #219653;
 }
 
 /* ==========================================================================
