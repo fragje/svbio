@@ -102,7 +102,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -147,7 +147,7 @@ header {
 }
 
 a {
-  color: #219653;
+  color: var(--link-color);
 }
 
 /* ==========================================================================
@@ -334,6 +334,29 @@ a {
   h3 {
     page-break-after: avoid;
   }
+}
+
+.button {
+  background-color: var(--link-color);
+  display: inline-block;
+  padding: .75em 1em;
+  color: white;
+  text-decoration: none;
+  box-shadow: 10px 10px 15px rgba(0,0,0,.2), -5px -5px 5px rgba(255,255,255,.7);
+  transition: all .2s ease-out;
+}
+
+.button:hover,
+.button:focus {
+  transform: scale3D(1.05, 1.05, 1);
+  box-shadow: 10px 10px 20px rgba(0,0,0,.2), -10px -10px 15px rgba(255,255,255,.5);
+}
+
+.logo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  position: sticky;
+  top: 50%;
 }
 
 
