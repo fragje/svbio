@@ -343,6 +343,7 @@ a {
   text-decoration: none;
   box-shadow: 10px 10px 15px rgba(0,0,0,.2), -5px -5px 5px rgba(255,255,255,.7);
   transition: all .2s ease-out;
+  text-align: center;
 }
 
 .button:hover,
@@ -360,17 +361,9 @@ a {
 
 @media (min-width: 700px) {
   .page-header {
-    /* grid-column: 1; */
-    /* grid-row: 1; */
-    /* display: grid; */
     display: flex;
     flex-direction: column;
   }
-}
-
-.page-content {
-  /* grid-column: 2; */
-  /* grid-row: 1/span 3; */
 }
 
 .gallery-wrapper {
