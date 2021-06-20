@@ -19,7 +19,13 @@
     "gh-pages": "^3.1.0",
     "parcel": "^2.0.0-beta.2",
     "parcel-plugin-clean-dist": "0.0.6",
-    "postcss": "^8.2.10"
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.2.10",
+    "swiper": "^6.7.0"
   },
-  "dependencies": {}
+  "staticFiles": {
+    "staticPath": [
+      "./CNAME"
+    ]
+  }
 }
