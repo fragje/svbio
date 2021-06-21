@@ -380,6 +380,13 @@ a {
   }
 }
 
+@media (min-width: 1300px) {
+  .gallery-wrapper {
+    margin-left: -130px;
+  }
+
+}
+
 .gallery-wrapper img {
   width: 100%;
 }
@@ -399,7 +406,7 @@ a {
 }
 
 .swiper-container {
-  box-shadow: 10px 10px 15px rgba(0,0,0,.2), -5px -5px 5px rgba(255,255,255,.7);
+  box-shadow: 10px 10px 15px rgba(0,0,0,.2), -5px -5px 5px rgba(255,255,255,.2);
 }
 
 .visually-hidden {
