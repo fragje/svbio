@@ -460,7 +460,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-},{"swiper":"GxxLH","swiper/swiper-bundle.css":"4ildJ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","swiper/core":"GxxLH"}],"GxxLH":[function(require,module,exports) {
+},{"swiper":"GxxLH","swiper/core":"GxxLH","swiper/swiper-bundle.css":"4ildJ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"GxxLH":[function(require,module,exports) {
 /**
  * Swiper 6.7.0
  * Most modern mobile touch slider and framework with hardware accelerated transitions
